@@ -25,6 +25,7 @@ output = document.getElementById("output")
 def work(*args):
     result = input.value
     output.innerText = result
+    console.log(f'Az eredmény: {result}')
 def clear(*args):
     input.value = ""
     output.innerText = "Output"
